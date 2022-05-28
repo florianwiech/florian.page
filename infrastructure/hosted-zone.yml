@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Resources:
+  HostedZone:
+    Type: AWS::Route53::HostedZone
+    Properties:
+      Name: florian.page
+      HostedZoneTags:
+        - Key: Name
+          Value: florian.page
+        - Key: Project
+          Value: florian.page
+        - Key: Environment
+          Value: production
+        - Key: ManagedBy
+          Value: CloudFormation
+        - Key: Role
+          Value: public
