@@ -6,3 +6,7 @@ deploy-hosted-zone:
 		--template-file ./infrastructure/hosted-zone.yml \
 		--stack-name florian-page-hosted-zone \
 		--region $(REGION)
+
+deploy-site:
+	yarn build
+	sh ./deploy.sh
