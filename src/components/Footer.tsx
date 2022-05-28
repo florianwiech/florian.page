@@ -22,14 +22,13 @@ export const Footer: FC = () => {
             target="_blank"
             rel="noreferrer"
             className="inline-flex h-8 w-8 transform transform-gpu items-center justify-center rounded-full transition duration-200 hover:translate-y-[-2px] hover:bg-neutral-50 dark:bg-opacity-20 dark:hover:bg-opacity-40 dark:hover:text-white"
+            aria-label="GitHub"
           >
-            <GitHub className="h-4 w-4 transform" />
+            <GitHub alt="GitHub" className="h-4 w-4 transform" />
           </a>
         </li>
       </ul>
-      <small className="m-auto text-base text-neutral-400 dark:text-white dark:text-opacity-40 sm:mr-auto sm:ml-0">
-        ©&nbsp;2022 Florian&nbsp;Wiech
-      </small>
+      <small className="m-auto text-base text-neutral-400 sm:mr-auto sm:ml-0">©&nbsp;2022 Florian&nbsp;Wiech</small>
     </footer>
   );
 };

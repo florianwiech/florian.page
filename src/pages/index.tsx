@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <h1 className="mb-7 flex font-extrabold text-neutral-900 dark:text-neutral-50 sm:mb-10">
           <span className="bg-clip-text text-4xl antialiased sm:text-6xl">florian.page</span>
         </h1>
-        <p className="max-w-3xl text-3xl text-3xl font-bold text-neutral-700 dark:text-neutral-200 sm:text-4xl">
+        <h2 className="max-w-3xl text-3xl text-3xl font-bold text-neutral-700 dark:text-neutral-200 sm:text-4xl">
           A collection of projects &amp; articles,
           <br />
           brought to you by
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
               <span className="translate-y-[-1px] transform pr-1">Florian Wiech</span>
             </a>
           </Link>
-        </p>
+        </h2>
       </header>
 
       <section className="mx-auto w-full max-w-[960px] px-10 sm:px-20">
@@ -41,6 +41,7 @@ const Home: NextPage = () => {
             >
               <img
                 src="/CodeWaffle.png"
+                alt="CodeWaffle Logo"
                 className="w-52 transform transition duration-200 group-hover:translate-y-[-2px]"
               />
               <h3 className="pb-2 text-3xl font-bold text-neutral-900 dark:text-neutral-50">CodeWaffle</h3>
